@@ -65,10 +65,8 @@ export const playMusic = async (req, res) => {
     if (musicExists) {
       await database.zIncrBy('musics:ranking', 1, `music:${musicId}`)
 
-      const timestamp = new Date()
       const data = {
         musicId: `music:${musicId}`,
-        timestamp: timestamp.toISOString(),
       }
       await database.xAdd('playlist', '*', data)
 
