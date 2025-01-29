@@ -1,16 +1,21 @@
 <h1 align="center">
-  Redis - Playlist
+  Modelagem Avançada no Redis: Exploração de Hashes, Sorted Sets e Streams
 </h1>
 
 ## 💻 Sobre o projeto
 
-[em construção...]
+Projeto desenvolvido para o [artigo](https://medium.com/@fabianapduarte/modelagem-avan%C3%A7ada-no-redis-explora%C3%A7%C3%A3o-de-hashes-sorted-sets-e-streams-828797ff54c7) desenvolvido para a avaliação da disciplina de Banco de Dados NoSQL do curso de Tecnologia da Informação (IMD/UFRN).
+
+A aplicação tem objetivo gerenciar playlists de músicas utilizando Node.js, Express e Redis.
 
 ---
 
 ## ⚙ Funcionalidades
 
-[em construção...]
+- Catalogar músicas;
+- Selecionar músicas para uma lista de reprodução;
+- Exibir a playlist, apresentando em tempo real quando novas músicas são adicionadas;
+- Visualizar ranking de músicas mais tocadas.
 
 ---
 
@@ -18,7 +23,7 @@
 
 Para executar o projeto, siga os seguintes passos:
 
-1. É preciso ter o Node.js instalado na sua máquina.
+1. É preciso ter o Node.js e o Redis instalado na sua máquina.
 2. No terminal:
 
 ```bash
